@@ -1,0 +1,31 @@
+.marco {
+    display: grid;
+    align-content: center;
+    grid-template-columns: 300px 540px 540px;
+    grid-template-rows: 450px 450px 300px;
+    grid-template-areas: 
+    "izquierda derecha derecha"
+    "izquierda derecha derecha"
+    "footer footer footer";
+    grid-gap: 5px;
+    border: 5px;
+    background-color: blueviolet;
+    width: 1400px;
+    height: 1250px;
+    margin: auto;
+}
+
+.izquierda {
+    grid-area: izquierda;
+    background-color: rgb(43, 117, 182);
+}
+
+.derecha {
+    grid-area: derecha;
+    background-color: rgb(91, 214, 214);
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(69, 199, 52);
+}
