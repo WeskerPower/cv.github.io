@@ -29,7 +29,13 @@ header{
 
 aside{
     grid-area: aside;
+    align-content: center;
     background-color: rgb(87, 74, 160);
+}
+aside p{
+    text-align: left;
+    text-indent: 35px; 
+    line-height: 0px;
 }
 
 section{
@@ -41,3 +47,21 @@ footer{
     grid-area: footer;
     background-color: rgb(126, 33, 64);
 }
+
+/* aside */
+
+.container {
+  overflow: hidden;
+  border: 2px solid black;
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.skills {
+  text-align: right;
+  color: white;
+}
+
+.html {width: 90%; background-color: #832376;}
