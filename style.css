@@ -1,31 +1,43 @@
-.marco {
+body {
     display: grid;
     align-content: center;
-    grid-template-columns: 300px 540px 540px;
-    grid-template-rows: 450px 450px 300px;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 50px 100px 300px 300px 300px 200px;
     grid-template-areas: 
-    "izquierda derecha derecha"
-    "izquierda derecha derecha"
-    "footer footer footer";
-    grid-gap: 5px;
-    border: 5px;
-    background-color: blueviolet;
+    "nav nav nav nav"
+    "header header header header"
+    "aside section section section"
+    "aside section section section"
+    "aside section section section"
+    "footer footer footer footer"
+    ;
     width: 1400px;
-    height: 1250px;
+    height: 1270px;
     margin: auto;
+    background-color: white;
 }
 
-.izquierda {
-    grid-area: izquierda;
-    background-color: rgb(43, 117, 182);
+nav{
+    grid-area: nav;
+    background-color: rgb(13, 75, 75);
 }
 
-.derecha {
-    grid-area: derecha;
-    background-color: rgb(91, 214, 214);
+header{
+    grid-area: header;
+    background-color: rgb(21, 161, 80);
 }
 
-.footer {
+aside{
+    grid-area: aside;
+    background-color: rgb(87, 74, 160);
+}
+
+section{
+    grid-area: section;
+    background-color: rgb(40, 165, 155);
+}
+
+footer{
     grid-area: footer;
-    background-color: rgb(69, 199, 52);
+    background-color: rgb(126, 33, 64);
 }
