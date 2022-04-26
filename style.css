@@ -19,18 +19,32 @@ body {
 
 nav{
     grid-area: nav;
-    background-color: rgb(13, 75, 75);
+    background-color: rgb(67, 181, 196);
+    text-align: center;
+    text-indent: 85%;
 }
 
 header{
     grid-area: header;
-    background-color: rgb(21, 161, 80);
+    background-color: rgb(67, 181, 196);
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+section h2,h3{
+    text-indent: 5%;
+}
+
+article {
+    text-indent: 2%;
 }
 
 aside{
     grid-area: aside;
     align-content: center;
-    background-color: rgb(87, 74, 160);
+    text-indent: 5%;
+    background-color: rgb(67, 181, 196);
+    border-right: 1px solid rgb(255, 255, 255);
 }
 aside p{
     text-align: left;
@@ -40,12 +54,17 @@ aside p{
 
 section{
     grid-area: section;
-    background-color: rgb(40, 165, 155);
+    background-color: rgb(67, 181, 196);
 }
 
 footer{
     grid-area: footer;
-    background-color: rgb(126, 33, 64);
+    background-color: rgb(67, 181, 196);
+    border-top: 1px solid rgb(255, 255, 255);;
 }
 
+footer h2 {
+    text-align: left;
+    text-indent: 5%; 
+}
 /* aside */
