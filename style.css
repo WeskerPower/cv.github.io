@@ -15,51 +15,54 @@ body {
     height: 1270px;
     margin: auto;
     background-color: white;
+    color: rgb(195, 231, 231);
 }
 
 nav{
     grid-area: nav;
-    background-color: rgb(67, 181, 196);
+    background-color: rgb(4, 143, 143);
     text-align: center;
     text-indent: 85%;
 }
 
 header{
     grid-area: header;
-    background-color: rgb(67, 181, 196);
+    background-color: rgb(2, 105, 105);
     text-align: center;
     border-bottom: 1px solid rgb(255, 255, 255);
-}
-
-section h2,h3{
-    text-indent: 5%;
-}
-
-article {
-    text-indent: 2%;
 }
 
 aside{
     grid-area: aside;
     align-content: center;
-    text-indent: 5%;
-    background-color: rgb(67, 181, 196);
+    background-color: rgb(2, 105, 105);
     border-right: 1px solid rgb(255, 255, 255);
 }
-aside p{
+aside h2{
     text-align: left;
-    text-indent: 35px; 
-    line-height: 0px;
+    text-indent: 20%;
+}
+aside h3{
+    text-align: left;
+    text-indent: 10%;
 }
 
 section{
     grid-area: section;
-    background-color: rgb(67, 181, 196);
+    background-color: rgb(2, 105, 105);
+}
+section h2,h3{
+    text-align: left;
+    text-indent: 10%;
+}
+section article{
+    text-align: left;
+    text-indent: 5%;
 }
 
 footer{
     grid-area: footer;
-    background-color: rgb(67, 181, 196);
+    background-color: rgb(4, 143, 143);
     border-top: 1px solid rgb(255, 255, 255);;
 }
 
