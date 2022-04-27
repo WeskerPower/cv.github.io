@@ -15,19 +15,19 @@ body {
     height: 1270px;
     margin: auto;
     background-color: white;
-    color: rgb(195, 231, 231);
+    color: rgb(0, 0, 0);
 }
 
 nav{
     grid-area: nav;
-    background-color: rgb(4, 143, 143);
+    background-color: rgb(114, 154, 181);
     text-align: center;
     text-indent: 85%;
 }
 
 header{
     grid-area: header;
-    background-color: rgb(2, 105, 105);
+    background-color: rgb(114, 154, 181);
     text-align: center;
     border-bottom: 1px solid rgb(255, 255, 255);
 }
@@ -35,7 +35,7 @@ header{
 aside{
     grid-area: aside;
     align-content: center;
-    background-color: rgb(2, 105, 105);
+    background-color: rgb(114, 154, 181);
     border-right: 1px solid rgb(255, 255, 255);
 }
 aside h2{
@@ -49,7 +49,7 @@ aside h3{
 
 section{
     grid-area: section;
-    background-color: rgb(2, 105, 105);
+    background-color: rgb(114, 154, 181);
 }
 section h2,h3{
     text-align: left;
@@ -57,17 +57,34 @@ section h2,h3{
 }
 section article{
     text-align: left;
-    text-indent: 5%;
+    padding-left: 5%;
 }
 
 footer{
     grid-area: footer;
-    background-color: rgb(4, 143, 143);
+    background-color: rgb(114, 154, 181);
     border-top: 1px solid rgb(255, 255, 255);;
 }
 
-footer h2 {
+footer h2{
     text-align: left;
     text-indent: 5%; 
 }
-/* aside */
+
+footer article.cert h3{
+    margin-top: -2%;
+    text-align: left;
+    padding-left: 5%;
+}
+
+footer article.wp h3{
+    background-color: rgb(135, 171, 196);
+    float: right;
+    clear: right;
+    text-align: right;
+    margin-top: -8%;
+    padding-right: 2%;
+    width: 30%; 
+    
+    
+}
