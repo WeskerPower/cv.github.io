@@ -1,2 +1,2 @@
-# wesker_power.github.io
-curriculum
+# Curriculum Vitae
+Este es un curriculum simple, solo para un muestreo de css, html, no tiene responsive design, ni javascript, es html+css puro, no tengo planes de actualizarlo, es nadamas una demostracion
